@@ -1,0 +1,36 @@
+@-webkit-keyframes rotateSide {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(-90deg);
+  }
+}
+
+@-webkit-keyframes rotateDown {
+  from {
+    -webkit-transform: rotate(-90deg);
+  }
+
+  to {
+    -webkit-transform: rotate(0deg);
+  }
+}
+
+@-webkit-keyframes showItems {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(-99px);
+  }
+  80% {
+    opacity: .6;
+  }
+  98% {
+    -webkit-transform: translateY(5px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translatey(0px);
+  }
+}

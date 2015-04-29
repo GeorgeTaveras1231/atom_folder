@@ -1,0 +1,32 @@
+@import "ui-variables";
+
+.tree-view {
+	font-size: @font-size;
+	background: @tree-view-background-color;
+
+	.selected:before {
+		background: fadeOut(@background-color-selected, 20%);
+	}
+}
+
+.focusable-panel {
+	opacity: 1;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#ecdfc8), to(darken(#ecdfc8, 10%) ) );
+	background-image: -webkit-linear-gradient(top, #ecdfc8, darken(#ecdfc8, 10%));
+
+	&:focus {
+		background-image: -webkit-gradient(linear, left top, left bottom, from(lighten(#ecdfc8, 10%)), to(#ecdfc8));
+		background-image: -webkit-linear-gradient(top, lighten(#ecdfc8, 10%), #ecdfc8);
+
+		.selected:before {
+			background: @background-color-selected;
+		}
+
+		.selected > .name,
+		.selected > .name:before,
+		.selected > .list-item > .name,
+		.selected > .list-item > .name:before {
+			color: #fff !important;
+		}
+	}
+}

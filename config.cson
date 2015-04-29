@@ -1,0 +1,81 @@
+"*":
+  "exception-reporting":
+    userId: "b92b3e34-3155-558d-932e-9e481a519bd3"
+  welcome:
+    showOnStartup: false
+  core:
+    disabledPackages: [
+      "rulerz"
+      "coffee-lint"
+      "terminal-pane"
+      "git-control"
+      "git-history"
+      "git-log"
+      "symbols-view"
+    ]
+    themes: [
+      "one-light-ui"
+      "github-web"
+    ]
+  editor:
+    invisibles: {}
+    showIndentGuide: true
+    showInvisibles: true
+    fontSize: 11
+    scrollPastEnd: true
+  "run-command": {}
+  "vim-mode":
+    useClipboardAsDefaultRegister: true
+    wrapLeftRightMotion: true
+  "tree-view":
+    hideVcsIgnoredFiles: true
+    hideIgnoredNames: true
+  "autocomplete-ruby": {}
+  rulerz: {}
+  "atom-lint":
+    showViolationMetadata: false
+  "aligner-ruby": {}
+  "autocomplete-plus": {}
+  linter:
+    statusBar: "Show error of the selected line"
+    showInfoMessages: true
+  "vim-surround": {}
+  "linter-erb":
+    rubyOnRailsMode: true
+  "linter-rubocop": {}
+  "terminal-panel": {}
+  term2:
+    colors: {}
+    cursorBlink: false
+    openPanesInSameSplit: true
+  "git-blame": {}
+  "git-log": {}
+  "git-history": {}
+  "isotope-ui": {}
+  "highlight-selected": {}
+  "filetype-color":
+    enabled: "false"
+  "atom-color-highlight": {}
+  goto: {}
+  minimap: {}
+  "highlight-line":
+    enableSelectionBorder: true
+    hideHighlightOnSelect: true
+    underline: "dashed"
+    enableBackgroundColor: false
+  "git-plus": {}
+  "linter-elixirc":
+    elixircExecutablePath: "/usr/local/bin/elixirc"
+  "highlight-column": {}
+  "accents-ui":
+    accentColor:
+      red: 210
+      green: 66
+      blue: 62
+      alpha: 1
+  "isotope-light-ui": {}
+  "git-diff":
+    showIconsInEditorGutter: true
+  "git-projects":
+    rootPath: "/Users/gtaveras/code"
+  "autocomplete-elixir": {}
